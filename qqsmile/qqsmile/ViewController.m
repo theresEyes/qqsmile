@@ -67,6 +67,12 @@
     [layer insertSublayer:self.captureVideoPreviewLayer below:self.view.layer];
 }
 
+//隐藏状态栏
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
