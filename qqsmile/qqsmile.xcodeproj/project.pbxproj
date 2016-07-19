@@ -85,9 +85,6 @@
 				6DEAC3D91D34E891009274C8 /* AppDelegate.m */,
 				6DEAC3DB1D34E891009274C8 /* ViewController.h */,
 				6DEAC3DC1D34E891009274C8 /* ViewController.m */,
-				6DEAC3DE1D34E891009274C8 /* Main.storyboard */,
-				6DEAC3E11D34E891009274C8 /* Images.xcassets */,
-				6DEAC3E31D34E891009274C8 /* LaunchScreen.xib */,
 				6DEAC3D41D34E891009274C8 /* Supporting Files */,
 			);
 			path = qqsmile;
@@ -96,6 +93,9 @@
 		6DEAC3D41D34E891009274C8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6DEAC3DE1D34E891009274C8 /* Main.storyboard */,
+				6DEAC3E11D34E891009274C8 /* Images.xcassets */,
+				6DEAC3E31D34E891009274C8 /* LaunchScreen.xib */,
 				6DEAC3D51D34E891009274C8 /* Info.plist */,
 				6DEAC3D61D34E891009274C8 /* main.m */,
 			);
@@ -416,6 +416,7 @@
 				6DEAC3F61D34E891009274C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DEAC3F71D34E891009274C8 /* Build configuration list for PBXNativeTarget "qqsmileTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				6DEAC3F91D34E891009274C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
